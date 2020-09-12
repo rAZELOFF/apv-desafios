@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios</title>
+    <!-- CDN Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            background-color: #4D5382;
+
+        }
+
+        .headerPrincipal {
+            background-color: #B3B7EE;
+            padding: 5px 0px;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+            ;
+        }
+
+        .nav-link:hover {
+            background-color: #CFD6EA;
+            border-radius: 10px;
+        }
+
+        .nav-link:active,
+        .nav-link:visited {
+            color: white;
+            background-color: #3B60E4;
+        }
+
+        .div_principal {
+            border-radius: 5px;
+            background-color: white;
+            margin-top: 4%;
+            padding: 20px;
+        }
+        .blackBackground{
+            background-color:#FF512B;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 400px;
+        }
+
+        ol>li {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #B3B7EE;
+            border-top: 2px solid white;
+        }
+
+        .footer>p {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="headerPrincipal text-center text-dark mt-5">Sitio de desafios</h1>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="desafio1.html">Desafio 1</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="desafio2.html">Desafio 2</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container div_principal">
+        <h2>Consigna:</h2>
+        <h4>
+            Crear una pagina detallando una receta de cocina aplicando las etiquetas vistas en clase almenos
+            <b>Heading</b> y <b>listas.</b>
+        </h4>
+    </div>
+
+
+    <div class="container div_principal mb-5 ">
+        <h1 class="py-4 text-center font-weight-bold">Receta para pizza casera</h1>
+        <div class="container">
+            <div class="row py-4 blackBackground">
+                <div class="col sm-12 md-12 lg-6 d-flex justify-content-center">
+                    <img src="images/pizza.jpg" alt="Pizza" id="pizza">
+                </div>
+
+                <div class="col sm-12 md-12 lg-6 d-flex justify-content-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YtFFWpmqaT4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+        <h3 class="alert alert-danger font-weight-bold my-4 text-center">ingredientes para 2 pizzas de 8 porciones!</h3>
+        <ul class="list-group text-center">
+            <li class="list-group-item list-group-item-primary">1/2 kilo de harina 000</li>
+            <li class="list-group-item list-group-item-primary">25 gr de pan de levadura fresco</li>
+            <li class="list-group-item list-group-item-primary">1/2 cucharada de sal</li>
+            <li class="list-group-item list-group-item-primary">4 cdas de aceite de oliva</li>
+            <li class="list-group-item list-group-item-primary">1 cda de azúcar</li>
+            <li class="list-group-item list-group-item-primary">1 taza de agua tibia</li>
+        </ul>
+
+        <h3 class="py-4">Preparación</h3>
+        <div class="container">
+            <ol>
+                <li>En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar.
+                    Mezclar bien hasta que se formen burbujitas. Tapar con un nylon y dejar levar mas o menos 10
+                    minutos.</li>
+                <li>En otro bol, colocar la harina y mezclarla con la sal. Hacer un hueco en el centro, y luego
+                    volcar
+                    la media taza de agua con la levadura. Incorporar el resto del agua tibia. Unir con las manos
+                    todos
+                    los ingredientes hasta formar una masa. Agregar en forma de hilo el aceite y volver a amasar.
+                </li>
+                <li>Dejar descansar la masa para pizza unos 15 minutos, y luego amasarla en una mesa con harina.
+                    Dividir
+                    la masa en dos bollos del mismo tamaño.</li>
+                <li> Estirar la masa hasta lograr un círculo. Poner la masa en una fuente para pizza, dejar
+                    descansar en
+                    lugar templado hasta que leve un poquito. Aproximadamente 15 minutos.</li>
+                <li>Llevar a un horno fuerte unos 6 minutos. Esto es muy importante para que la masa para pizza
+                    quede
+                    bien cocida (principalmente la parte entre los ingredientes y la masa, si salteamos este punto
+                    quedará húmeda y cruda).</li>
+                <li>Agregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid fixed-bottom footer">
+            <p class="lead text-center mb-0 py-2">Pagina desarrollada para la entrega de desafios de la plataforma
+                Aprende Programando Virtual</p>
+        </div>
+    </footer>
+</body>
+
+</html>
