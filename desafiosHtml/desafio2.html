@@ -11,30 +11,33 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
     <!-- CSS Externo -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 
 </head>
 
 <body>
     <header>
-        <h1 class="headerPrincipal text-center text-dark mt-5">Sitio de desafios</h1>
+        <h1 class="headerPrincipal text-center mt-5">Sitio de desafios</h1>
         <ul class="nav nav-pills justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="desafio1.html">Desafio 1</a>
+                <a class="nav-link" href="/desafiosHtml/desafio1.html">Desafio 1</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="desafio2.html">Desafio 2</a>
+                <a class="nav-link" href="/desafiosHtml/desafio2.html">Desafio 2</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="desafio3-4.html">Desafio 3 y 4</a>
+                <a class="nav-link" href="/desafiosHtml/desafio3-4.html">Desafio 3 y 4</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/desafiosHtml/desafio5.html">Desafio 5</a>
             </li>
         </ul>
     </header>
 
-    <div class="container div_principal">
+    <div class="container div_consigna">
         <h2>Consigna:</h2>
         <h4>
             Crear una pagina detallando una receta de cocina aplicando las etiquetas vistas en clase almenos
@@ -43,33 +46,23 @@
     </div>
 
 
-    <div class="container div_principal mb-5 ">
-        <h1 class="py-4 text-center font-weight-bold">Receta para pizza casera</h1>
-        <div class="container">
-            <div class="row py-4 blackBackground">
-                <div class="col sm-12 md-12 lg-6 d-flex justify-content-center">
-                    <img src="images/pizza.jpg" alt="Pizza" id="pizza">
-                </div>
-
-                <div class="col sm-12 md-12 lg-6 d-flex justify-content-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YtFFWpmqaT4" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
+    <div class="container div_principal">
+        <h1 class="pt-4 text-center font-weight-bold">Receta para pizza casera</h1>
+        <div class="row py-4 d-flex justify-content-center">
+            <h3 class="alert alert-danger font-weight-bold text-center mt-4 mb-0 w-75">ingredientes para 2 pizzas
+                de 8
+                porciones!</h3>
+            <ul class="list-group text-center mt-0 w-75 text-dark">
+                <li class="list-group-item">1/2 kilo de harina 000</li>
+                <li class="list-group-item list-group-item-dark">25 gr de pan de levadura fresco</li>
+                <li class="list-group-item ">1/2 cucharada de sal</li>
+                <li class="list-group-item list-group-item-dark">4 cdas de aceite de oliva</li>
+                <li class="list-group-item ">1 cda de azúcar</li>
+                <li class="list-group-item list-group-item-dark">1 taza de agua tibia</li>
+            </ul>
 
         </div>
-        <h3 class="alert alert-danger font-weight-bold my-4 text-center">ingredientes para 2 pizzas de 8 porciones!</h3>
-        <ul class="list-group text-center">
-            <li class="list-group-item list-group-item-primary">1/2 kilo de harina 000</li>
-            <li class="list-group-item list-group-item-primary">25 gr de pan de levadura fresco</li>
-            <li class="list-group-item list-group-item-primary">1/2 cucharada de sal</li>
-            <li class="list-group-item list-group-item-primary">4 cdas de aceite de oliva</li>
-            <li class="list-group-item list-group-item-primary">1 cda de azúcar</li>
-            <li class="list-group-item list-group-item-primary">1 taza de agua tibia</li>
-        </ul>
-
-        <h3 class="py-4">Preparación</h3>
+        <h3 class="py-2" id="headingPizza">Preparación</h3>
         <div class="container">
             <ol>
                 <li>En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar.
@@ -92,6 +85,7 @@
                     bien cocida (principalmente la parte entre los ingredientes y la masa, si salteamos este punto
                     quedará húmeda y cruda).</li>
                 <li>Agregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.</li>
+                <li>Cortar y servir!</li>
             </ol>
         </div>
     </div>
@@ -102,6 +96,16 @@
                 Aprende Programando Virtual</p>
         </div>
     </footer>
+    <!-- Bootstrap js 4.5.2 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
